@@ -1,0 +1,39 @@
+:root{
+  --dorado: #b8964a;
+  --dorado-claro: #f0dfa0;
+}
+
+.fondo-perfil{
+  background-image: url(../IMG/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.fraunces{
+  font-family: 'Fraunces', serif;
+}
+
+.sombra-texto{
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+.text-dorado{
+  color: var(--dorado) !important;
+}
+
+.text-dorado-claro{
+  color: var(--dorado-claro) !important;
+}
+
+.bg-dorado{
+  background-color: var(--dorado) !important;
+}
+
+@media (max-width: 600px){
+  .fondo-perfil{
+    flex-direction: column;
+    text-align: center;
+  }
+}
